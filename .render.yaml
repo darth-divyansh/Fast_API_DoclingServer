@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: docling-parser
+    env: docker
+    plan: free
+    region: oregon
+    branch: main
+    repo: https://github.com/your-username/your-repo-name
+    dockerContext: .
+    envVars:
+      - key: PORT
+        value: 8000

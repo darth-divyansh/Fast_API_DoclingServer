@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+requests
+PyYAML
+docling
+pypdfium2
