@@ -5,7 +5,7 @@ services:
     plan: free
     region: oregon
     branch: main
-    repo: https://github.com/your-username/your-repo-name
+    repo: https://github.com/darth-divyansh/Fast_API_DoclingServer
     dockerContext: .
     envVars:
       - key: PORT
